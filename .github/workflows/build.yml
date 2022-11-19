@@ -3,7 +3,7 @@ name: Build the Gram
 on:
   schedule:
     - cron:  '*/5 * * * *'
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
